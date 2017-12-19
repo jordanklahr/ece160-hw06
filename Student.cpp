@@ -64,6 +64,6 @@ std::string Student::majorString(Major m) {
    */
 void Student::printInfo() {
 	std::cout << _last_name <<", " << _first_name<< std::endl;
-	std::cout << majorString(_major) << _grad_year<< std::endl;
+	std::cout << majorString(_major) << " "<< _grad_year<< std::endl;
 	std::cout << "GPA: " << std::setprecision(2)<< std::fixed <<getGpa() << std::endl;
 }
